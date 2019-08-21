@@ -1,2 +1,1 @@
-# pureUnityLua
-pure unity3d tolua# startup proj
+# pure unity3d tolua# startup proj
