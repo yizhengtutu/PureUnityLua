@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using LuaInterface;
 using System;
-using Debugger = LuaInterface.Debugger;
+//using Debugger = LuaInterface.Debugger;
 
 namespace LuaInterface
 {
@@ -153,8 +153,8 @@ public class PassStruct : LuaClient
         func.PCall();
         Rect rt = func.CheckValue<Rect>();
         func.EndPCall();
-        Debugger.Log(rt);
-        Debugger.Log(Vector3.one.ToString());
+        //Debugger.Log(rt);
+        //Debugger.Log(Vector3.one.ToString());
     }
 
     LuaFunction NewRect = null;
