@@ -15,7 +15,8 @@ public static class LuaConst
     public static string osDir = "";        
 #endif
 
-    public static string luaResDir = string.Format("{0}/{1}/Lua", Application.persistentDataPath, osDir);      //手机运行时lua文件下载目录    
+    public static string luaResDir = string.Format("{0}/Lua", Application.persistentDataPath);      //手机运行时lua文件下载目录    
+    public static string luaResDir2 = string.Format("{0}/Lua", Application.streamingAssetsPath);
 
 #if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN    
     public static string zbsDir = "D:/ZeroBraneStudio/lualibs/mobdebug";        //ZeroBraneStudio目录       

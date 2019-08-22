@@ -201,6 +201,7 @@ namespace LuaInterface
                 if (LuaFileUtils.Instance.GetType() == typeof(LuaFileUtils))
                 {
                     AddSearchPath(LuaConst.luaResDir);
+                    AddSearchPath(LuaConst.luaResDir2);
                 }
             }
         }
